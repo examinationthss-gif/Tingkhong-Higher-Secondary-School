@@ -1,0 +1,6 @@
+{
+  "name": "Tingkhong Higher Secondary School",
+  "description": "Official website for Tingkhong Higher Secondary School, Dibrugarh, Assam (Classes VI-XII, AHSEC). Featuring academic resources, admissions portals, notices, and modern digital portals for students and parents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
