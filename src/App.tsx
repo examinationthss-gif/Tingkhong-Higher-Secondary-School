@@ -20,6 +20,7 @@ import FAQSection from './components/FAQSection';
 import ComplianceSection from './components/ComplianceSection';
 import SMDCCommittee from './components/SMDCCommittee';
 import Footer from './components/Footer';
+import DesignPartnerBanner from './components/DesignPartnerBanner';
 import { Language } from './translations';
 
 export default function App() {
@@ -176,6 +177,9 @@ export default function App() {
 
       {/* 10b. SMDC Committee Governance Section */}
       <SMDCCommittee lang={lang} />
+
+      {/* Aesthetic Design Partner Banner */}
+      <DesignPartnerBanner />
 
       {/* 11. Comprehensive Footer portal */}
       <Footer onScrollToSection={handleScrollToSection} />
