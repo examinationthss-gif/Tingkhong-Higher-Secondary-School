@@ -1,9 +1,42 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import { Quote, Landmark, GraduationCap, Award, FileText, Target, Shield, Users, CheckCircle } from 'lucide-react';
+import { Quote, Landmark, GraduationCap, Award, FileText, Target, Shield, Users, CheckCircle, Camera, RotateCcw } from 'lucide-react';
 import { PRINCIPAL_INFO } from '../data';
 
 export default function PrincipalMessage() {
+  const [imageSrc, setImageSrc] = useState<string>(PRINCIPAL_INFO.image);
+
+  useEffect(() => {
+    const savedImage = localStorage.getItem('principal_image');
+    if (savedImage) {
+      if (savedImage.startsWith('data:image')) {
+        setImageSrc(savedImage);
+      } else {
+        // If it's a relative path, clear it so it defaults to the updated PRINCIPAL_INFO.image
+        localStorage.removeItem('principal_image');
+        setImageSrc(PRINCIPAL_INFO.image);
+      }
+    }
+  }, []);
+
+  const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        const base64String = reader.result as string;
+        localStorage.setItem('principal_image', base64String);
+        setImageSrc(base64String);
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const handleResetImage = () => {
+    localStorage.removeItem('principal_image');
+    setImageSrc(PRINCIPAL_INFO.image);
+  };
+
   return (
     <section id="principal-message" className="py-20 bg-brand-cream/40 relative">
       <div className="absolute inset-0 muga-pattern pointer-events-none opacity-40" />
@@ -32,13 +65,36 @@ export default function PrincipalMessage() {
               <div className="relative rounded-2xl overflow-hidden bg-white p-4 border border-slate-200/60 shadow-xl transition-all duration-300 group-hover:shadow-2xl">
                 <div className="relative rounded-xl overflow-hidden aspect-[4/5] bg-slate-100 mb-4">
                   <img 
-                    src={PRINCIPAL_INFO.image} 
+                    src={imageSrc} 
                     alt={PRINCIPAL_INFO.name} 
                     className="w-full h-full object-cover object-[50%_20%] filter contrast-[1.03] brightness-[1.01] saturate-100 transition-all duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
                     id="principal-avatar-img"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0d2a1b]/60 via-transparent to-transparent opacity-80" />
+                  
+                  {/* Elegant Camera upload trigger */}
+                  <label htmlFor="principal-photo-upload" className="absolute top-3 right-3 bg-white/95 hover:bg-white text-slate-700 hover:text-brand-green-dark p-2 rounded-full shadow-md cursor-pointer transition-all duration-200 opacity-85 hover:opacity-100 flex items-center justify-center group/btn z-20" title="Upload Principal Sir portrait">
+                    <Camera size={14} className="transition-transform group-hover/btn:scale-110" />
+                    <input 
+                      type="file" 
+                      id="principal-photo-upload" 
+                      accept="image/*" 
+                      className="hidden" 
+                      onChange={handleImageUpload}
+                    />
+                  </label>
+
+                  {imageSrc !== PRINCIPAL_INFO.image && (
+                    <button 
+                      onClick={handleResetImage}
+                      className="absolute top-3 left-3 bg-white/95 hover:bg-white text-rose-600 p-2 rounded-full shadow-md cursor-pointer transition-all duration-200 opacity-85 hover:opacity-100 flex items-center justify-center group/btn z-20"
+                      title="Reset to default photo"
+                    >
+                      <RotateCcw size={14} className="transition-transform group-hover/btn:-rotate-45" />
+                    </button>
+                  )}
+
                   <div className="absolute bottom-4 left-4 right-4 text-white">
                     <p className="text-[10px] font-mono font-bold tracking-widest text-brand-gold uppercase">
                       CHIEF ADMINISTRATOR

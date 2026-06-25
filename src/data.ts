@@ -8,7 +8,7 @@ export const SCHOOL_ESTD = "Established 1972";
 export const PRINCIPAL_INFO = {
   name: "Ashok Gogoi",
   designation: "Principal, M.A., B.Ed.",
-  image: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&q=80&w=400", // High quality professional portrait of a senior Indian educator
+  image: "/Principal Sir-1.jpeg", // High quality professional portrait of a senior Indian educator
   messageQuote: "To build a temple of knowledge where academic rigour matches moral rectitude, preparing the youth of Tingkhong for global horizons while holding fast to their Assamese roots.",
   messageBody: [
     "It gives me immense pleasure to welcome you to Tingkhong Higher Secondary School. As Principal, my core vision is to elevate this historic institution into a leading hub of academic excellence and holistic character formation under the AHSEC and SEBA guidelines.",
