@@ -221,44 +221,72 @@ export default function AcademicCalendar({ lang }: AcademicCalendarProps) {
     {
       id: "ev-jun-1",
       date: "2026-06-01",
-      title: { en: "Admission Intake Deadline", as: "আবেদন পত্ৰ গ্ৰহণৰ অন্তিম তাৰিখ" },
-      category: "admissions",
-      description: { en: "Final date to deposit physical application files in registrar counter.", as: "কাৰ্যালয় কাউণ্টাৰত একাদশ শ্ৰেণীৰ আবেদন পত্ৰ জমা লোৱাৰ শেষ সময়।" }
+      title: { en: "Janmotsav of Sri Sri Madhabdeva", as: "শ্ৰী শ্ৰী মাধৱদেৱৰ জন্মােৎসৱ" },
+      category: "holidays",
+      description: { en: "Official board holiday observed across the institution.", as: "সমগ্ৰ শিক্ষানুষ্ঠানত চৰকাৰীভাৱে উদযাপন কৰা শ্ৰী শ্ৰী মাধৱদেৱৰ জৰ্মোৎসৱ উপলক্ষে বন্ধ।" }
     },
     {
       id: "ev-jun-5",
       date: "2026-06-05",
-      title: { en: "World Environment Day Drive", as: "বিশ্ব পৰিৱেশ দিৱস / বৃক্ষৰোপণ কাৰ্যসূচী" },
+      title: { en: "World Environment Day", as: "বিশ্ব পৰিৱেশ দিৱস" },
       category: "events",
-      description: { en: "Annual saplings plantation drives across the local sub-divisions.", as: "টিংখাং উচ্চতৰ মাধ্যমিক চৌহদত বৃক্ষৰোপণ আৰু সজাগতা সমদল।" }
-    },
-    {
-      id: "ev-jun-18",
-      date: "2026-06-18",
-      title: { en: "Class XI Merit List Publication", as: "একাদশ শ্ৰেণীৰ মেধা তালিকা প্ৰকাশ" },
-      category: "admissions",
-      description: { en: "Display of selected candidates in science & arts streams.", as: "উচ্চতৰ মাধ্যমিকৰ নামভৰ্তিৰ প্ৰথমখন চৰকাৰী মেধা তালিকা প্ৰকাশ।" }
+      description: { en: "Campus observance day featuring the plantation of saplings, student quizzes, debates, and extempore speech activities.", as: "চৌহদত গছপুলি ৰোপণ, কুইজ, তৰ্ক আৰু আকস্মিক বক্তৃতা প্ৰতিযোগিতাৰ সৈতে দিৱস উদযাপন।" }
     },
     {
       id: "ev-jun-20",
       date: "2026-06-20",
-      title: { en: "Bishnu Rabha Divas Tributes", as: "কলাগুৰু বিষ্ণুপ্ৰসাদ ৰাভা দিৱস" },
-      category: "traditional",
-      description: { en: "Art representation, patriotic vocal items, and community speeches.", as: "কলাগুৰুৰ কৃতি, বিপ্লৱী চেতনা আৰু সাহিত্য চৰ্চাৰ স্মৰণ দিৱস।" }
+      title: { en: "Bishnu Prasad Rabha Divas", as: "বিষ্ণু প্ৰসাদ ৰাভা দিৱস" },
+      category: "events",
+      description: { en: "Special institutional observance featuring a ceremonial lightening of the lamp, garlanding of the portrait of Bishnu Rabha, and student essay writing, recitation, and dance competitions.", as: "বন্তি প্ৰজ্বলন, ৰাভাৰ প্ৰতিচ্ছবিত মাল্যাৰ্পণ তথা ছাত্ৰ-ছাত্ৰীৰ ৰচনা লিখন, আবৃত্তি আৰু নৃত্য প্ৰতিযোগিতা।" }
+    },
+    {
+      id: "ev-jun-21",
+      date: "2026-06-21",
+      title: { en: "International Yoga Day", as: "আন্তৰ্জাতিক যোগ দিৱস" },
+      category: "events",
+      description: { en: "Campus assembly focusing on the positive impacts of Yoga on health, alongside an organized school Yoga camp.", as: "স্বাস্থ্যৰ ওপৰত যোগৰ ইতিবাচক প্ৰভাৱ সম্পৰ্কে সজাগতা সভা আৰু এক বিশেষ যোগ শিবিৰৰ আয়োজন।" }
+    },
+    {
+      id: "ev-jun-22",
+      date: "2026-06-22",
+      title: { en: "Class Unit Test-I (Day 1)", as: "শ্ৰেণী গোট মূল্যায়ন-১ (প্ৰথম দিন)" },
+      category: "exams",
+      description: { en: "Mandatory Unit Test-I evaluation window conducted daily for both Class XI and Class XII batches.", as: "একাদশ আৰু দ্বাদশ শ্ৰেণীৰ বাবে দৈনিক অনুষ্ঠিত কৰা বাধ্যতামূলক প্ৰথম গোট মূল্যায়ন পৰীক্ষা।" }
     },
     {
       id: "ev-jun-23",
       date: "2026-06-23",
-      title: { en: "First Terminal Exams Board Begins", as: "প্ৰথম সাময়িক মূল্যায়ণ পৰীক্ষা আৰম্ভ" },
+      title: { en: "Class Unit Test-I (Day 2)", as: "শ্ৰেণী গোট মূল্যায়ন-১ (দ্বিতীয় দিন)" },
       category: "exams",
-      description: { en: "State council coordinated formative units test assessments.", as: "ষাণ্মাসিক পৰীক্ষাৰ অন্তৰ্ৱৰ্তী প্ৰথম মূল্যায়ন সূচী।" }
+      description: { en: "Mandatory Unit Test-I evaluation window conducted daily for both Class XI and Class XII batches.", as: "একাদশ আৰু দ্বাদশ শ্ৰেণীৰ বাবে দৈনিক অনুষ্ঠিত কৰা বাধ্যতামূলক প্ৰথম গোট মূল্যায়ন পৰীক্ষা।" }
     },
     {
-      id: "ev-jun-30",
-      date: "2026-06-30",
-      title: { en: "First Terminal Assessments End", as: "প্ৰথম সাময়িক পৰীক্ষাৰ সমাপ্তি" },
+      id: "ev-jun-24",
+      date: "2026-06-24",
+      title: { en: "Class Unit Test-I (Day 3)", as: "শ্ৰেণী গোট মূল্যায়ন-১ (তৃতীয় দিন)" },
       category: "exams",
-      description: { en: "Compilation of academic logs before Summer break.", as: "গ্ৰীষ্মকালীন বন্ধৰ পূৰ্বে মূল্যায়ন পত্ৰৰ কম্পিউটাৰাইজড পঞ্জীয়ন।" }
+      description: { en: "Mandatory Unit Test-I evaluation window conducted daily for both Class XI and Class XII batches.", as: "একাদশ আৰু দ্বাদশ শ্ৰেণীৰ বাবে দৈনিক অনুষ্ঠিত কৰা বাধ্যতামূলক প্ৰথম গোট মূল্যায়ন পৰীক্ষা।" }
+    },
+    {
+      id: "ev-jun-25",
+      date: "2026-06-25",
+      title: { en: "Class Unit Test-I (Day 4)", as: "শ্ৰেণী গোট মূল্যায়ন-১ (চতুৰ্থ দিন)" },
+      category: "exams",
+      description: { en: "Mandatory Unit Test-I evaluation window conducted daily for both Class XI and Class XII batches.", as: "একাদশ আৰু দ্বাদশ শ্ৰেণীৰ বাবে দৈনিক অনুষ্ঠিত কৰা বাধ্যতামূলক প্ৰথম গোট মূল্যায়ন পৰীক্ষা।" }
+    },
+    {
+      id: "ev-jun-26",
+      date: "2026-06-26",
+      title: { en: "Class Unit Test-I (Day 5)", as: "শ্ৰেণী গোট মূল্যায়ন-১ (পঞ্চম দিন)" },
+      category: "exams",
+      description: { en: "Mandatory Unit Test-I evaluation window conducted daily for both Class XI and Class XII batches.", as: "একাদশ আৰু দ্বাদশ শ্ৰেণীৰ বাবে দৈনিক অনুষ্ঠিত কৰা বাধ্যতামূলক প্ৰথম গোট মূল্যায়ন পৰীক্ষা।" }
+    },
+    {
+      id: "ev-jun-27",
+      date: "2026-06-27",
+      title: { en: "Class Unit Test-I (Day 6)", as: "শ্ৰেণী গোট মূল্যায়ন-১ (ষষ্ঠ দিন)" },
+      category: "exams",
+      description: { en: "Mandatory Unit Test-I evaluation window conducted daily for both Class XI and Class XII batches.", as: "একাদশ আৰু দ্বাদশ শ্ৰেণীৰ বাবে দৈনিক অনুষ্ঠিত কৰা বাধ্যতামূলক প্ৰথম গোট মূল্যায়ন পৰীক্ষা।" }
     },
 
     // July 2026
@@ -688,13 +716,47 @@ export default function AcademicCalendar({ lang }: AcademicCalendarProps) {
                 let borderStyle = "border-gray-200/60";
                 let textStyle = "text-slate-800";
                 let bgStyle = "bg-white hover:bg-gray-50/50";
+                let microLabel = "";
 
                 // Highlight today if matching current system date (June 19, 2026)
                 const isSystemToday = formattedDate === "2026-06-19";
                 if (isSystemToday) {
-                  borderStyle = "border-brand-gold";
+                  borderStyle = "border-brand-gold border-2";
                   textStyle = "text-brand-gold-dark font-extrabold";
-                  bgStyle = "bg-brand-gold/10 hover:bg-brand-gold/15";
+                  bgStyle = "bg-brand-gold/15 hover:bg-brand-gold/25";
+                }
+
+                if (hasEvents) {
+                  const primaryEv = dayEvents[0];
+                  const cat = primaryEv.category;
+                  const isJune1 = primaryEv.date === '2026-06-01';
+
+                  if (cat === 'exams' || isJune1) {
+                    bgStyle = "bg-red-50/90 hover:bg-red-100/95";
+                    borderStyle = "border-l-4 border-l-red-500 border-t-red-200/50 border-r-red-200/50 border-b-red-200/50";
+                    textStyle = "text-red-900 font-black";
+                    microLabel = isJune1 ? "HOLIDAY" : "EXAM";
+                  } else if (cat === 'holidays') {
+                    bgStyle = "bg-emerald-50/90 hover:bg-emerald-100/95";
+                    borderStyle = "border-l-4 border-l-emerald-500 border-t-emerald-200/50 border-r-emerald-200/50 border-b-emerald-200/50";
+                    textStyle = "text-emerald-950 font-black";
+                    microLabel = "HOLIDAY";
+                  } else if (cat === 'events') {
+                    bgStyle = "bg-blue-50/90 hover:bg-blue-100/95";
+                    borderStyle = "border-l-4 border-l-blue-500 border-t-blue-200/50 border-r-blue-200/50 border-b-blue-200/50";
+                    textStyle = "text-blue-900 font-black";
+                    microLabel = "EVENT";
+                  } else if (cat === 'admissions') {
+                    bgStyle = "bg-amber-50/90 hover:bg-amber-100/95";
+                    borderStyle = "border-l-4 border-l-amber-500 border-t-amber-200/50 border-r-amber-200/50 border-b-amber-200/50";
+                    textStyle = "text-amber-950 font-black";
+                    microLabel = "ADMISSION";
+                  } else if (cat === 'traditional') {
+                    bgStyle = "bg-purple-50/90 hover:bg-purple-100/95";
+                    borderStyle = "border-l-4 border-l-purple-500 border-t-purple-200/50 border-r-purple-200/50 border-b-purple-200/50";
+                    textStyle = "text-purple-900 font-black";
+                    microLabel = "FESTIVAL";
+                  }
                 }
 
                 return (
@@ -707,32 +769,26 @@ export default function AcademicCalendar({ lang }: AcademicCalendarProps) {
                       }
                     }}
                     disabled={!hasEvents}
-                    className={`aspect-square p-1 rounded-xl border flex flex-col justify-between items-center relative transition-all ${bgStyle} ${borderStyle} ${
-                      hasEvents ? "cursor-pointer scale-100 font-bold active:scale-95 shadow-2xs hover:shadow-sm" : "opacity-75 cursor-default"
+                    className={`aspect-square p-1.5 rounded-xl border flex flex-col justify-center items-center relative transition-all ${bgStyle} ${borderStyle} ${
+                      hasEvents ? "cursor-pointer scale-100 active:scale-95 shadow-2xs hover:shadow-sm" : "opacity-75 cursor-default"
                     }`}
                   >
                     
-                    {/* Day label */}
-                    <span className={`text-xs sm:text-sm font-sans font-extrabold ${textStyle}`}>
-                      {dayNum}
-                    </span>
-
-                    {/* Mini event category color indicators list */}
-                    {hasEvents && (
-                      <div className="flex gap-0.8 justify-center flex-wrap pb-0.5">
-                        {dayEvents.map(ev => (
-                          <span
-                            key={ev.id}
-                            className={`w-1.5 h-1.5 rounded-full ${categoryLabels[ev.category].color}`}
-                            title={ev.title[lang]}
-                          />
-                        ))}
-                      </div>
-                    )}
+                    {/* Day label and micro subheading */}
+                    <div className="flex flex-col items-center justify-center text-center">
+                      <span className={`text-sm sm:text-base font-sans font-extrabold leading-none ${textStyle}`}>
+                        {dayNum}
+                      </span>
+                      {hasEvents && microLabel && (
+                        <span className="text-[8px] sm:text-[9px] font-mono tracking-wider uppercase font-black mt-1 opacity-90 leading-none">
+                          {microLabel}
+                        </span>
+                      )}
+                    </div>
 
                     {/* Golden subtle dot for system today identifier */}
                     {isSystemToday && (
-                      <span className="absolute top-1 right-1 w-1 h-1 bg-brand-gold rounded-full" />
+                      <span className="absolute top-1 right-1 w-1.5 h-1.5 bg-brand-gold rounded-full" />
                     )}
 
                   </button>

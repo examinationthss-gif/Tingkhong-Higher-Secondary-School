@@ -7,6 +7,7 @@ import AboutUs from './components/AboutUs';
 import EnrollmentStats from './components/EnrollmentStats';
 import InstitutionalOverview from './components/InstitutionalOverview';
 import AcademicExcellence from './components/AcademicExcellence';
+import RoutineViewer from './components/RoutineViewer';
 import AcademicPerformanceDashboard from './components/AcademicPerformanceDashboard';
 import TrustAndStats from './components/TrustAndStats';
 import ToppersWall from './components/ToppersWall';
@@ -59,6 +60,13 @@ export default function App() {
 
       {/* 5b. Integrated Academic Performance & Interactive Results Dashboard */}
       <AcademicPerformanceDashboard lang={lang} />
+
+      {/* 5b_routine. Interactive Class Routine / Timetable Viewer */}
+      <section id="class-routine" className="py-12 bg-brand-dark transition-colors duration-300">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <RoutineViewer />
+        </div>
+      </section>
 
       {/* 5c. Faculty Excellence Dedicated Highlight Card */}
       <section id="faculty-excellence-card" className="py-12 bg-slate-50/50 dark:bg-[#06150e]/60 border-t border-b border-slate-150/40 dark:border-emerald-950/20 transition-colors duration-300">
