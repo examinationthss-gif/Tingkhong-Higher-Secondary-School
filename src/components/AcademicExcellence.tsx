@@ -9,16 +9,16 @@ export default function AcademicExcellence() {
   // Focus outcomes or highlights for each stream to make it rich
   const focusAreas = [
     [
-      "Foundation for Engineering (JEE) & Medical (NEET)",
-      "Smart physics and chemical lab experiment sessions",
-      "Interactive coding classes and terminal system exposure",
-      "Annual state level Science Fair representational scope"
-    ],
-    [
       "Civil Services (UPSC/APSC) foundation modules",
       "Rigorous literary writing and logic debating councils",
       "Economics and regional demographics projects",
       "Assam literature and historical conservation groups"
+    ],
+    [
+      "Hands-on IT & software skills workshops",
+      "Retail, sales, and service industry apprenticeships",
+      "Direct vocational certification aligned with government schemes",
+      "Practical project assignments with local industry exposure"
     ],
     [
       "State board (SEBA/HSLC) competitive exam tuning",

@@ -65,6 +65,12 @@ export default function Header({ onScrollToSection, lang, setLang }: HeaderProps
           {/* Desktop Nav Items */}
           <nav className="hidden lg:flex items-center gap-6 font-sans">
             <button 
+              onClick={() => onScrollToSection('about-us')}
+              className="text-sm font-medium text-slate-700 hover:text-brand-green transition-colors cursor-pointer"
+            >
+              {getTranslation("nav_about")}
+            </button>
+            <button 
               onClick={() => onScrollToSection('academics')}
               className="text-sm font-medium text-slate-700 hover:text-brand-green transition-colors cursor-pointer"
             >
@@ -175,6 +181,12 @@ export default function Header({ onScrollToSection, lang, setLang }: HeaderProps
             className="lg:hidden w-full bg-brand-cream border-b border-brand-gold/15 shadow-inner overflow-hidden absolute top-full left-0 z-40 font-sans"
           >
             <div className="py-4 px-6 flex flex-col gap-4">
+              <button 
+                onClick={() => { onScrollToSection('about-us'); setIsOpen(false); }}
+                className="text-left py-2 text-sm font-medium text-slate-700 border-b border-slate-200/50 hover:text-brand-green transition-colors cursor-pointer"
+              >
+                {getTranslation("nav_about")}
+              </button>
               <button 
                 onClick={() => { onScrollToSection('academics'); setIsOpen(false); }}
                 className="text-left py-2 text-sm font-medium text-slate-700 border-b border-slate-200/50 hover:text-brand-green transition-colors cursor-pointer"

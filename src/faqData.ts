@@ -12,19 +12,19 @@ export const FAQ_DATA: FAQItem[] = [
     id: "faq-adm-1",
     category: "admissions",
     question: {
-      en: "How do I apply for Class XI Arts or Science admission at Tingkhong HSS?",
-      as: "টিংখাং উচ্ছতৰ মাধ্যমিক বিদ্যালয়ত একাদশ শ্ৰেণীৰ কলা বা বিজ্ঞান শাখাত নামভৰ্তিৰ বাবে কেনেকৈ আবেদন কৰিব পাৰি?"
+      en: "How do I apply for Class XI Arts or Vocational stream admission at Tingkhong HSS?",
+      as: "টিংখাং উচ্ছতৰ মাধ্যমিক বিদ্যালয়ত একাদশ শ্ৰেণীৰ কলা বা বৃত্তিমুখী শাখাত নামভৰ্তিৰ বাবে কেনেকৈ আবেদন কৰিব পাৰি?"
     },
     answer: {
-      en: "All admissions for Higher Secondary (Class XI) are processed exclusively through the Government of Assam's central DARPAN Admission Portal (darpan.ahsec.assam.gov.in). Students must register with their HSLC Examination credentials, select Tingkhong Higher Secondary School as their preferred institution, and choose either the Science or Arts stream. Direct offline admissions are not allowed as per board parameters.",
-      as: "উচ্চতৰ মাধ্যমিক (একাদশ শ্ৰেণী)ৰ নামভৰ্তি প্ৰক্ৰিয়া সম্পূৰ্ণৰূপে অসম চৰকাৰৰ কেন্দ্ৰীয় 'দৰ্পণ পৰ্টেল' (darpan.ahsec.assam.gov.in) ৰ জৰিয়তে সম্পাদন কৰা হয়। ছাত্ৰ-ছাত্ৰীসকলে তেওঁলোকৰ মেট্ৰিক পৰীক্ষাৰ তথ্যৰ সৈতে পঞ্জীয়ন কৰি নিৰ্বাচিত তালিকাত টিংখাং উচ্চতৰ মাধ্যমিক বিদ্যালয় বাচনি কৰিব লাগিব। শিক্ষা সংসদৰ নিয়মানুসাৰি অফলাইনযোগে পোনে পোনে নামভৰ্তি কৰাটো গ্ৰহণযোগ্য নহয়।"
+      en: "All admissions for Higher Secondary (Class XI) are processed exclusively through the Government of Assam's central DARPAN Admission Portal (darpan.ahsec.assam.gov.in). Students must register with their HSLC Examination credentials, select Tingkhong Higher Secondary School as their preferred institution, and choose either the Arts or Vocational stream. Direct offline admissions are not allowed as per board parameters.",
+      as: "উচ্চতৰ মাধ্যমিক (একাদশ শ্ৰেণী)ৰ নামভৰ্তি প্ৰক্ৰিয়া সম্পূৰ্ণৰূপে অসম চৰকাৰৰ কেন্দ্ৰীয় 'দৰ্পণ পৰ্টেল' (darpan.ahsec.assam.gov.in) ৰ জৰিয়তে সম্পাদন কৰা হয়। ছাত্ৰ-ছাত্ৰীসকলে তেওঁলোকৰ HSLC পৰীক্ষাৰ তথ্যৰ সৈতে পঞ্জীয়ন কৰিব লাগিব, নিজৰ পচন্দৰ প্ৰতিষ্ঠান হিচাপে টিংখাং উচ্চতৰ মাধ্যমিক বিদ্যালয় বাছনি কৰিব লাগিব আৰু কলা বা বৃত্তিমুখী শাখা বাছনি কৰিব লাগিব। বোৰ্ডৰ নিয়ম অনুসারে কোনো অফলাইন বা পোনপটীয়া নামভৰ্তি গ্ৰহণ কৰা নহয়।"
     }
   },
   {
     id: "faq-adm-2",
     category: "admissions",
     question: {
-      en: "What are the reservation criteria for seat allocation?",
+      en: "What are the seat reservation criteria for Admissions?",
       as: "নামভৰ্তিৰ সংৰক্ষণ সীমা সংক্ৰান্তীয় নিয়মসমূহ কি কি?"
     },
     answer: {
@@ -36,12 +36,12 @@ export const FAQ_DATA: FAQItem[] = [
     id: "faq-aca-1",
     category: "academics",
     question: {
-      en: "What is the medium of instruction for Arts and Science streams?",
-      as: "কলা আৰু বিজ্ঞান শাখাৰ শিক্ষাদানৰ মাধ্যম কি?"
+      en: "What is the medium of instruction for Arts and Vocational streams?",
+      as: "কলা আৰু বৃত্তিমুখী শাখাৰ শিক্ষাদানৰ মাধ্যম কি?"
     },
     answer: {
       en: "For Class XI & XII Higher Secondary, instruction is bilingual in both English and Assamese. Textbooks specified by AHSEC are available in both mediums. Teachers explain concepts in both languages so that students from Assamese-medium HSLC schools and English-medium backgrounds feel comfortably guided.",
-      as: "একাদশ আৰু দ্বাদশ শ্ৰেণীৰ বাবে ইংৰাজী আৰু অসমীয়া দুয়োটা মাধ্যমতে পাঠদান কৰা হয়। শিক্ষা সংসদে নিৰ্ধাৰণ কৰি দিয়া কিতাপসমূহ দুয়োটা ভাষাত উপলব্ধ। অসমীয়া মাধ্যমৰ চৰকাৰী বিদ্যালয়ৰ পৰা অহা ছাত্ৰ-ছাত্ৰীসকলে যাতে বুজি পায়, তাৰ বাবে শিক্ষকসকলে দুয়োটা ভাষাতে বুজাই দিয়ে।"
+      as: "একাদশ আৰু দ্বাদশ শ্ৰেণীৰ বাবে ইংৰাজী আৰু অসমীয়া দুয়োটা মাধ্যমতে পাঠদান কৰা হয়। কিতাপসমূহ দুয়োটা ভাষাত উপলব্ধ। অসমীয়া মাধ্যমৰ চৰকাৰী বিদ্যালয়ৰ পৰা অহা ছাত্ৰ-ছাত্ৰীসকলে যাতে বুজি পায়, তাৰ বাবে শিক্ষকসকলে দুয়োটা ভাষাতে বুজাই দিয়ে।"
     }
   },
   {

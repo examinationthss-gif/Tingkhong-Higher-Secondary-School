@@ -164,7 +164,10 @@ export default function Footer({ onScrollToSection }: FooterProps) {
             &copy; {currentYear} Tingkhong Higher Secondary School. All rights reserved. 
             <span className="text-brand-gold/75 block sm:inline sm:ml-2">Official AHSEC High School Council Portal.</span>
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-4">
+            <span className="text-[11px] text-slate-500 font-sans tracking-wide">
+              Built by LearnWithJulfy Digital Studio
+            </span>
             <button 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="text-[10px] font-semibold bg-brand-green text-brand-cream py-1.5 px-3 rounded hover:bg-brand-green-light transition-colors border border-brand-gold/40 flex items-center gap-1 cursor-pointer"

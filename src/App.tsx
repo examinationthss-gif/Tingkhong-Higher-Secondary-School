@@ -3,6 +3,9 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import NoticeBoard from './components/NoticeBoard';
 import PrincipalMessage from './components/PrincipalMessage';
+import AboutUs from './components/AboutUs';
+import EnrollmentStats from './components/EnrollmentStats';
+import InstitutionalOverview from './components/InstitutionalOverview';
 import AcademicExcellence from './components/AcademicExcellence';
 import AcademicPerformanceDashboard from './components/AcademicPerformanceDashboard';
 import TrustAndStats from './components/TrustAndStats';
@@ -41,6 +44,15 @@ export default function App() {
 
       {/* 4. Principal's Editorial Reflections Message */}
       <PrincipalMessage />
+
+      {/* 4b. Interactive Institutional Profile & About Us Grid */}
+      <AboutUs lang={lang} />
+
+      {/* 4c. Interactive Official Student Enrollment Statistics Dashboard */}
+      <EnrollmentStats lang={lang} />
+
+      {/* 4d. Institutional & Academic Overview Section */}
+      <InstitutionalOverview lang={lang} />
 
       {/* 5. Academic Excellence Streams Tab Viewer */}
       <AcademicExcellence />

@@ -2,6 +2,7 @@ export type Language = 'en' | 'as';
 
 export const TRANSLATIONS: Record<string, Record<Language, string>> = {
   // Navigation / Header
+  "nav_about": { en: "About Us", as: "আমাৰ বিষয়ে" },
   "nav_academics": { en: "Academics", as: "শৈক্ষিক দিশ" },
   "nav_principal": { en: "Principal's Desk", as: "অধ্যক্ষৰ বাণী" },
   "nav_notices": { en: "Notices", as: "বিজ্ঞপ্তি" },
@@ -12,7 +13,7 @@ export const TRANSLATIONS: Record<string, Record<Language, string>> = {
   "nav_new": { en: "New", as: "নতুন" },
   "system_affiliation": { en: "SEBA & AHSEC Govt. Affiliated", as: "SEBA আৰু AHSEC চৰকাৰী স্বীকৃতিপ্ৰাপ্ত" },
   "call_us": { en: "Call Us", as: "যোগাযোগ কৰক" },
-  "admission_alert": { en: "Class XI (Arts & Science) Open Admissions via Darpan Portal!", as: "দৰ্পণ পৰ্টেলৰ জৰিয়তে একাদশ শ্ৰেণীৰ (কলা আৰু বিজ্ঞান) নামভৰ্তি চলি আছে!" },
+  "admission_alert": { en: "Class XI (Arts & Vocational Streams) Open Admissions via Darpan Portal!", as: "দৰ্পণ পৰ্টেলৰ জৰিয়তে একাদশ শ্ৰেণীৰ (কলা আৰু বৃত্তিমুখী শাখা) নামভৰ্তি চলি আছে!" },
   
   // Hero Section
   "hero_anniversary": { en: "Celebrating 54 Years of Rural Enlightenment", as: "গ্ৰাম্য শিক্ষাৰ ৫৪ বছৰীয়া গৌৰৱময় যাত্ৰা" },
@@ -21,7 +22,7 @@ export const TRANSLATIONS: Record<string, Record<Language, string>> = {
   "hero_title_suffix": { en: "of Assam", as: "অসমৰ বুকুত" },
   "hero_desc": { en: "Empowering students from Class VI through XII under the AHSEC & SEBA councils. Located in the heart of Tingkhong's thriving tea estates, we mix modern digital intelligence with the pure values of Dibrugarh.", as: "ষষ্ঠ শ্ৰেণীৰ পৰা দ্বাদশ শ্ৰেণীলৈ AHSEC আৰু SEBA পৰিষদৰ অধীনত গুণগত শিক্ষাৰ প্ৰসাৰ। টিংখাঙৰ সেউজ চাহ বাগিচাৰ বুকুত অৱস্থিত এই বিদ্যালয়ত আমি ডিগ্ৰুগড়ৰ ঐতিহ্য আৰু আধুনিক ডিজিটেল প্ৰযুক্তিৰ অপূৰ্ব সংমিশ্ৰণ ঘটাইছোঁ।" },
   "hero_latest_info": { en: "LATEST INFO", as: "শেহতীয়া খবৰ" },
-  "hero_ticker": { en: "Class XI Arts & Science admission selections commence June 2026. Keep sheets ready.", as: "প্ৰথমবৰ্ষৰ কলা আৰু বিজ্ঞান শাখাৰ নামভৰ্তি বাছনি জুন ২০২৩ ত আৰম্ভ হ'ব। প্ৰয়োজনীয় নথি প্ৰস্তুত ৰাখিব।" },
+  "hero_ticker": { en: "Class XI Arts & Vocational Streams admission selections commence June 2026. Keep sheets ready.", as: "প্ৰথমবৰ্ষৰ কলা আৰু বৃত্তিমুখী শাখাৰ নামভৰ্তি বাছনি জুন ২০২৩ ত আৰম্ভ হ'ব। প্ৰয়োজনীয় নথি প্ৰস্তুত ৰাখিব।" },
   "hero_badge": { en: "Top Tier Board Score Rate", as: "উচ্চ উত্তীৰ্ণৰ হাৰ" },
   
   // Principal Message
@@ -79,7 +80,7 @@ export const TRANSLATIONS: Record<string, Record<Language, string>> = {
   // Admissions Checklist
   "admission_registry": { en: "ADMISSION REGISTRY • ২০২৬", as: "নামভৰ্তি পঞ্জীয়ন পত্ৰ • ২০২৬" },
   "admission_guide_title": { en: "Step-by-Step Admission Guide for Session 2026-27", as: "২০২৬-২৭ শৈক্ষিক বৰ্ষৰ বাবে নামভৰ্তিৰ নীতি নিৰ্দেশিকা" },
-  "admission_guide_desc": { en: "Under the directive of State Department of Secondary Education, Assam, all admissions into Higher Secondary (Class XI Arts and Science) must be compulsorily registered through the central government DARPAN Admission Portal.", as: "অসম মাধ্যমিক শিক্ষা বিভাগৰ নিৰ্দেশ অনুসৰি, উচ্চতৰ মাধ্যমিক বিজ্ঞান আৰু কলা শাখাৰ সকলো নামভৰ্তি চৰকাৰী কেন্দ্ৰীয় 'দৰ্পণ পৰ্টেল' (DARPAN) ৰ জৰিয়তে সম্পন্ন কৰাটো বাধ্যতামূলক।" },
+  "admission_guide_desc": { en: "Under the directive of State Department of Secondary Education, Assam, all admissions into Higher Secondary (Class XI Arts and Vocational Streams) must be compulsorily registered through the central government DARPAN Admission Portal.", as: "অসম মাধ্যমিক শিক্ষা বিভাগৰ নিৰ্দেশ অনুসৰি, উচ্চতৰ মাধ্যমিক কলা আৰু বৃত্তিমুখী শাখাৰ সকলো নামভৰ্তি চৰকাৰী কেন্দ্ৰীয় 'দৰ্পণ পৰ্টেল' (DARPAN) ৰ জৰিয়তে সম্পন্ন কৰাটো বাধ্যতামূলক।" },
   "ready_files": { en: "Ready with files? Click below to navigate:", as: "সকলো নথি-পত্ৰ প্ৰস্তুত কৰিলে নে? অনলাইন আবেদন কৰিবলৈ লিংকত ক্লিক কৰক:" },
   "btn_darpan": { en: "Navigate to Darpan Port", as: "দৰ্পণ পৰ্টেললৈ যাওক" },
 

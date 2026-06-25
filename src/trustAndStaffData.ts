@@ -314,7 +314,7 @@ export const TOPPER_DATA: AcademicTopper[] = [
   {
     id: "topper-1",
     name: { en: "Priyanka Phukan", as: "প্ৰিয়ংকা ফুকন" },
-    examination: { en: "AHSEC (Science stream) Final", as: "উচ্চতৰ মাধ্যমিক (বিজ্ঞান) চূড়ান্ত ব'ৰ্ড পৰীক্ষা" },
+    examination: { en: "AHSEC (Vocational stream) Final", as: "উচ্চতৰ মাধ্যমিক (বৃত্তিমুখী) চূড়ান্ত ব'ৰ্ড পৰীক্ষা" },
     percentage: "97.4%",
     year: "2025",
     achievements: { en: "District Rank 3 • Star Marks in 5 subjects", as: "জিলা স্তৰত তৃতীয় স্থান • ৫ টা বিষয়ত ষ্টাৰ মাৰ্ক্স" },
@@ -341,10 +341,10 @@ export const TOPPER_DATA: AcademicTopper[] = [
   {
     id: "topper-4",
     name: { en: "Parash Jyoti Baruah", as: "পৰাশ জ্যোতি বৰুৱা" },
-    examination: { en: "AHSEC (Science stream) Final", as: "উচ্চতৰ মাধ্যমিক (বিজ্ঞান) চূড়ান্ত ব'ৰ্ড পৰীক্ষা" },
+    examination: { en: "AHSEC (Vocational stream) Final", as: "উচ্চতৰ মাধ্যমিক (বৃত্তিমুখী) চূড়ান্ত ব'ৰ্ড পৰীক্ষা" },
     percentage: "96.8%",
     year: "2024",
-    achievements: { en: "Distinction • Selected in National Science Meet", as: "ডিশ্বল মৰ্যাদা • ৰাষ্ট্ৰীয় বিজ্ঞান সন্মিলনলৈ নিৰ্বাচিত" },
+    achievements: { en: "Distinction • Selected in National Skill Exhibition", as: "ডিশ্বল মৰ্যাদা • ৰাষ্ট্ৰীয় দক্ষতা প্ৰদৰ্শনলৈ নিৰ্বাচিত" },
     gender: "M"
   },
   {
@@ -368,7 +368,7 @@ export const TOPPER_DATA: AcademicTopper[] = [
   {
     id: "topper-7",
     name: { en: "Jyotishman Borgohain", as: "জ্যোতিষ্মান বৰগোঁহাই" },
-    examination: { en: "AHSEC (Science stream) Final", as: "উচ্চতৰ মাধ্যমিক (বিজ্ঞান) চূড়ান্ত ব'ৰ্ড পৰীক্ষা" },
+    examination: { en: "AHSEC (Arts stream) Final", as: "উচ্চতৰ মাধ্যমিক (কলা) চূড়ান্ত ব'ৰ্ড পৰীক্ষা" },
     percentage: "95.6%",
     year: "2023",
     achievements: { en: "Dibrugarh District Merit list rank 5", as: "ডিব্ৰুগড় জিলাৰ মেধা তালিকাত পঞ্চম স্থান" },

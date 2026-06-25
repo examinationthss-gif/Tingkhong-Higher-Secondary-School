@@ -4,7 +4,11 @@ import { Quote, Landmark, GraduationCap, Award, FileText, Target, Shield, Users,
 import { PRINCIPAL_INFO } from '../data';
 
 export default function PrincipalMessage() {
-  const [imageSrc, setImageSrc] = useState<string>(PRINCIPAL_INFO.image);
+  const getNormalizedImage = (url: string) => {
+    return url.startsWith('/public/') ? url.replace('/public/', '/') : url;
+  };
+
+  const [imageSrc, setImageSrc] = useState<string>(getNormalizedImage(PRINCIPAL_INFO.image));
 
   useEffect(() => {
     const savedImage = localStorage.getItem('principal_image');
@@ -14,7 +18,7 @@ export default function PrincipalMessage() {
       } else {
         // If it's a relative path, clear it so it defaults to the updated PRINCIPAL_INFO.image
         localStorage.removeItem('principal_image');
-        setImageSrc(PRINCIPAL_INFO.image);
+        setImageSrc(getNormalizedImage(PRINCIPAL_INFO.image));
       }
     }
   }, []);
@@ -34,7 +38,7 @@ export default function PrincipalMessage() {
 
   const handleResetImage = () => {
     localStorage.removeItem('principal_image');
-    setImageSrc(PRINCIPAL_INFO.image);
+    setImageSrc(getNormalizedImage(PRINCIPAL_INFO.image));
   };
 
   return (
@@ -85,7 +89,7 @@ export default function PrincipalMessage() {
                     />
                   </label>
 
-                  {imageSrc !== PRINCIPAL_INFO.image && (
+                  {imageSrc !== getNormalizedImage(PRINCIPAL_INFO.image) && (
                     <button 
                       onClick={handleResetImage}
                       className="absolute top-3 left-3 bg-white/95 hover:bg-white text-rose-600 p-2 rounded-full shadow-md cursor-pointer transition-all duration-200 opacity-85 hover:opacity-100 flex items-center justify-center group/btn z-20"

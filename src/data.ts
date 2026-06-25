@@ -8,7 +8,7 @@ export const SCHOOL_ESTD = "Established 1972";
 export const PRINCIPAL_INFO = {
   name: "Ashok Gogoi",
   designation: "Principal, M.A., B.Ed.",
-  image: "/Principal Sir-1.jpeg", // High quality professional portrait of a senior Indian educator
+  image: "/public/Principal Sir-1.jpeg", // High quality professional portrait of a senior Indian educator
   messageQuote: "To build a temple of knowledge where academic rigour matches moral rectitude, preparing the youth of Tingkhong for global horizons while holding fast to their Assamese roots.",
   messageBody: [
     "It gives me immense pleasure to welcome you to Tingkhong Higher Secondary School. As Principal, my core vision is to elevate this historic institution into a leading hub of academic excellence and holistic character formation under the AHSEC and SEBA guidelines.",
@@ -25,11 +25,11 @@ export const PRINCIPAL_INFO = {
 export const NOTICES: Notice[] = [
   {
     id: "notice-1",
-    title: "Admissions open for Class XI (Arts & Science) for Academic Session 2026-27",
+    title: "Admissions open for Class XI (Arts & Vocational Streams) for Academic Session 2026-27",
     date: "June 18, 2026",
     category: "admission",
     isUrgent: true,
-    content: "Online applications are invited from eligible candidates for admission into Class XI Arts and Science streams. Forms are available at the main office or can be submitted through our Darpan Admission Portal. Last date of registration is June 30, 2026."
+    content: "Online applications are invited from eligible candidates for admission into Class XI Arts and Vocational streams. Forms are available at the main office or can be submitted through our Darpan Admission Portal. Last date of registration is June 30, 2026."
   },
   {
     id: "notice-2",
@@ -98,14 +98,14 @@ export const SCHOOL_STATS: StatItem[] = [
 
 export const ACADEMICS_STREAM: StreamDetail[] = [
   {
-    name: "Higher Secondary (Science Stream)",
-    description: "Fully affiliated with AHSEC. Focused on research spirit, state engineering/medical foundation, and scientific innovation.",
-    subjects: ["English", "MIL (Assamese/Alternative English)", "Physics", "Chemistry", "Mathematics", "Biology", "Computer Science"]
-  },
-  {
     name: "Higher Secondary (Arts Stream)",
     description: "Enabling comprehensive analytical mindset looking towards civics, Assamese literature mastery, economics, and humanities.",
     subjects: ["English", "Alternative English / Assamese", "Political Science", "Economics", "History", "Logic & Philosophy", "Education", "Sociology"]
+  },
+  {
+    name: "Higher Secondary (Vocational Stream)",
+    description: "Affiliated with AHSEC. Designed to build career-ready skills in key industries with direct practical apprenticeship and modern computer training.",
+    subjects: ["English", "MIL (Assamese/Alternative English)", "General Foundation Course", "IT / ITeS (Trade Subject)", "Retail & Sales (Trade Subject)", "Computer Science & Skills"]
   },
   {
     name: "Secondary Education (Classes IX - X)",
@@ -182,7 +182,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "test-1",
     name: "Dr. Himanta Jyoti Neog",
     role: "Alumni",
-    batch: "HS Science Batch 2012 (Assistant Professor, Cotton University)",
+    batch: "HS Arts Batch 2012 (Assistant Professor, Cotton University)",
     comment: "Tingkhong Higher Secondary School gave me wings. The teachers did not just guide me for the exam books, they instilled in me a passion for active research. Studying amidst the fresh scent of green fields was the absolute best phase of my childhood.",
     rating: 5
   },
@@ -197,8 +197,8 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "test-3",
     name: "Bhaskar Sonowal",
     role: "Student",
-    batch: "Class XII Science",
-    comment: "The smart classrooms make complex physics and mathematics layouts incredibly easy to learn. Our science club regularly goes to district exhibitions, and our principal helps us push our boundaries. I feel extremely proud to wear this school badge.",
+    batch: "Class XII Arts",
+    comment: "The smart classrooms make complex history and economics layouts incredibly easy to learn. Our computer and debating club regularly goes to district exhibitions, and our principal helps us push our boundaries. I feel extremely proud to wear this school badge.",
     rating: 5
   }
 ];
