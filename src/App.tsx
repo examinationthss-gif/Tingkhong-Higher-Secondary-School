@@ -95,16 +95,16 @@ export default function App() {
                     milestone: lang === "en" ? "26+ Distinction Scorers in 2024" : "২৬+তকৈ অধিক ডিষ্টিংকচন"
                   },
                   {
-                    name: "Shri Debajit Saikia",
-                    role: lang === "en" ? "PGT Physics Lab Chief Advisor" : "জ্যেষ্ঠ পদাৰ্থ বিজ্ঞান প্ৰবক্তা",
-                    stat: "98% Science Pass",
-                    milestone: lang === "en" ? "11 Students scored 95+ in 2026" : "১১ গৰাকী ৯০% বা ততোধিক সংগ্ৰহ"
+                    name: "Shri Jayanta Boruah",
+                    role: lang === "en" ? "PGT Political Science Senior Advisor" : "জ্যেষ্ঠ ৰাজনীতি বিজ্ঞান প্ৰবক্তা",
+                    stat: "98% PolSci Pass",
+                    milestone: lang === "en" ? "15+ Years Board Preparation Guidance" : "১৫+ বছৰৰ বোৰ্ড পৰীক্ষা মাৰ্গদৰ্শন"
                   },
                   {
-                    name: "Smt. Anuradha Chutia",
-                    role: lang === "en" ? "Vice Principal & Assamese Literary Chair" : "উপাধ্যক্ষ তথা অসমীয়া সাহিত্য মুৰব্বী",
+                    name: "Smt. Preeti Rekha Das",
+                    role: lang === "en" ? "PGT English Senior Faculty Chair" : "জ্যেষ্ঠ ইংৰাজী সাহিত্য প্ৰবক্তা",
                     stat: "100% Success",
-                    milestone: lang === "en" ? "60+ Star Marks in MIL Assamese" : "৬০+ষ্টাৰ মাৰ্ক্স প্ৰাপ্ত কৰিছে"
+                    milestone: lang === "en" ? "Special Phonetics & Grammar coaching" : "বিশেষ ধ্বনিবিজ্ঞান আৰু ইংৰাজী ব্যাকৰণ প্ৰশিক্ষণ"
                   },
                   {
                     name: "Shri Dilip Kumar Gogoi",

@@ -34,8 +34,9 @@ export default function PrincipalMessage() {
                   <img 
                     src={PRINCIPAL_INFO.image} 
                     alt={PRINCIPAL_INFO.name} 
-                    className="w-full h-full object-cover filter brightness-95 tracking-wide"
+                    className="w-full h-full object-cover object-[50%_20%] filter contrast-[1.03] brightness-[1.01] saturate-100 transition-all duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
+                    id="principal-avatar-img"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0d2a1b]/60 via-transparent to-transparent opacity-80" />
                   <div className="absolute bottom-4 left-4 right-4 text-white">

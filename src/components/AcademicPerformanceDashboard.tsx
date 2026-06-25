@@ -96,20 +96,20 @@ export default function AcademicPerformanceDashboard({ lang }: AcademicPerforman
       icon: "English"
     },
     {
-      teacher: "Shri Debajit Saikia",
-      role: "PGT Physics Lab Chief Advisor",
-      stat: "98% Science Pass Rate",
-      milestone: "11 Students achieved 95+ in Physics (2025/2026)",
-      desc: "Configured comprehensive hands-on spectrometer exercises, state-council standardized board mock papers and doubt-clearing registers.",
-      icon: "Physics"
+      teacher: "Shri Jayanta Boruah",
+      role: "PGT Political Science Senior Advisor",
+      stat: "98% PolSci Pass Rate",
+      milestone: "15+ Years Board Preparation Guidance",
+      desc: "Instilling clear civic understandings, constitutional frameworks and high-mark answer structuring practices.",
+      icon: "Civics"
     },
     {
-      teacher: "Smt. Anuradha Chutia",
-      role: "Vice Principal & Assamese Literary Chair",
+      teacher: "Smt. Preeti Rekha Das",
+      role: "PGT English Senior Faculty Chair",
       stat: "100% Subject Pass",
-      milestone: "60+ Star Marks in MIL Assamese (HS/HSLC 2025)",
-      desc: "Instilling deep patriotic linguistic analytical frameworks and essays on tribal identity and Srimanta Sankardeva heritage.",
-      icon: "Assamese"
+      milestone: "Special Phonetics & Grammar coaching",
+      desc: "Advanced reading comprehension methods and creative writing strategies that consistently unlock board star-marks.",
+      icon: "English"
     },
     {
       teacher: "Shri Dilip Kumar Gogoi",

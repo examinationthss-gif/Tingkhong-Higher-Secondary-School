@@ -29,114 +29,284 @@ export interface SMDCRepresentative {
 
 export const STAFF_DATA: StaffMember[] = [
   {
-    id: "staff-1",
+    id: "staff-ashok",
     name: { en: "Shri Ashok Gogoi", as: "শ্ৰী অশোক গগৈ" },
     designation: { en: "Principal & Member Secretary", as: "অধ্যক্ষ তথা পঞ্জীয়ক সদস্য" },
     category: "principal",
     department: { en: "Administration & Leadership", as: "প্ৰশাসন আৰু নেতৃত্ব" },
-    qualification: { en: "M.A., B.Ed., LL.B.", as: "এম.এ, বি.এড, এল.এল.বি" },
+    qualification: { en: "M.A., B.Ed.", as: "এম.এ, বি.এড" },
     experience: { en: "25+ Years in Educational Governance", as: "২৫+ বছৰৰ প্ৰশাসনিক আৰু শৈক্ষিক অভিজ্ঞতা" },
     gender: "M"
   },
   {
-    id: "staff-2",
-    name: { en: "Smt. Anuradha Chutia", as: "শ্ৰীমতী অনুৰাধা চুতীয়া" },
-    designation: { en: "Vice Principal", as: "উপাধ্যক্ষ" },
-    category: "vice_principal",
-    department: { en: "Department of Assamese", as: "অসমীয়া বিভাগ" },
-    qualification: { en: "M.A. (Assamese), B.Ed.", as: "এম.এ (অসমীয়া), বি.এড" },
-    experience: { en: "25 Years in Senior teaching guidelines", as: "২৫ বছৰৰ জ্যেষ্ঠ শিক্ষাদানৰ অভিজ্ঞতা" },
-    gender: "F"
-  },
-  {
-    id: "staff-3",
-    name: { en: "Shri Debajit Saikia", as: "শ্ৰী দেৱজিৎ শইকীয়া" },
-    designation: { en: "Post Graduate Teacher (PGT)", as: "উচ্চতৰ মাধ্যমিক শিক্ষক (PGT)" },
-    category: "teaching",
-    department: { en: "Department of Physics", as: "পদাৰ্থ বিজ্ঞান বিভাগ" },
-    qualification: { en: "M.Sc. (Physics), B.Ed.", as: "এম.এছচি (পদাৰ্থ বিজ্ঞান), বি.এড" },
-    experience: { en: "18 Years of Board Examination evaluation", as: "১৮ বছৰৰ বোৰ্ড পৰীক্ষা মূল্যায়ন গাইডেন্স" },
-    gender: "M"
-  },
-  {
-    id: "staff-4",
-    name: { en: "Dr. Karabi Duarah", as: "ড° কৰৱী দুৱৰা" },
-    designation: { en: "Post Graduate Teacher (PGT)", as: "উচ্চতৰ মাধ্যমিক শিক্ষয়িত্ৰী (PGT)" },
-    category: "teaching",
-    department: { en: "Department of History", as: "ইতিহাস বিভাগ" },
-    qualification: { en: "Ph.D., M.A. (History), B.Ed.", as: "পিএইচ.ডি, এম.এ (ইতিহাস), বি.এড" },
-    experience: { en: "12 Years in Humanities research guidance", as: "১২ বছৰৰ ইতিহাস আৰু সমাজ বিজ্ঞান গৱেষণা" },
-    gender: "F"
-  },
-  {
-    id: "staff-5",
-    name: { en: "Shri Monideep Sonowal", as: "শ্ৰী মনিদীপ সোণোৱাল" },
-    designation: { en: "Graduate Teacher & ICT Head", as: "কম্পিউটাৰ শিক্ষক তথা আইচিটি মুৰব্বী" },
-    category: "teaching",
-    department: { en: "Department of Computer Science & IT", as: "কম্পিউটাৰ বিজ্ঞান আৰু তথ্য প্ৰযুক্তি বিভাগ" },
-    qualification: { en: "M.Sc. (Computer Science), MCA", as: "এম.এছচি (কম্পিউটাৰ বিজ্ঞান), এম.চি.এ" },
-    experience: { en: "8 Years in Digital Smart-Class planning", as: "৮ বছৰৰ ডিজিটেল ক্ৰাফ্টিং আৰু শিক্ষাদান" },
-    gender: "M"
-  },
-  {
-    id: "staff-6",
-    name: { en: "Smt. Swapnali Baruah", as: "শ্ৰীমতী স্বপ্নালী বৰুৱা" },
-    designation: { en: "Post Graduate Teacher (PGT)", as: "উচ্চতৰ মাধ্যমিক শিক্ষয়িত্ৰী (PGT)" },
-    category: "teaching",
-    department: { en: "Department of English", as: "ইংৰাজী বিভাগ" },
-    qualification: { en: "M.A. (English Literature), B.Ed.", as: "এম.এ (ইংৰাজী সাহিত্য), বি.এড" },
-    experience: { en: "15 Years of Phonetics & Grammar coaching", as: "১৫ বছৰৰ ইংৰাজী ব্যাকৰণ আৰু ধ্বনিবিজ্ঞান" },
-    gender: "F"
-  },
-  {
-    id: "staff-7",
-    name: { en: "Shri Dilip Kumar Gogoi", as: "শ্ৰী দিলীপ কুমাৰ গগৈ" },
-    designation: { en: "Post Graduate Teacher (PGT)", as: "উচ্চতৰ মাধ্যমিক শিক্ষক (PGT)" },
-    category: "teaching",
-    department: { en: "Department of Chemistry", as: "ৰসায়ন বিজ্ঞান বিভাগ" },
-    qualification: { en: "M.Sc. (Chemistry), B.Ed.", as: "এম.এছচি (ৰসায়ন বিজ্ঞান), বি.এড" },
-    experience: { en: "20 Years of Practical Lab administration", as: "২০ বছৰৰ ব্যৱহাৰিক পৰীক্ষাগাৰ শিক্ষাদান" },
-    gender: "M"
-  },
-  {
-    id: "staff-8",
-    name: { en: "Smt. Bornali Borgohain", as: "শ্ৰীমতী বৰ্ণালী বৰগোঁহাই" },
-    designation: { en: "Post Graduate Teacher (PGT)", as: "উচ্চতৰ মাধ্যমিক শিক্ষয়িত্ৰী (PGT)" },
-    category: "teaching",
-    department: { en: "Department of Political Science", as: "ৰাজনীতি বিজ্ঞান বিভাগ" },
-    qualification: { en: "M.A. (Political Science), B.Ed.", as: "এম.এ (ৰাজনীতি বিজ্ঞান), বি.এড" },
-    experience: { en: "10 Years in Civics & Constitution studies", as: "১০ বছৰৰ ৰাষ্ট্ৰনীতি আৰু সংবিধানৰ পাঠদান" },
-    gender: "F"
-  },
-  {
-    id: "staff-9",
-    name: { en: "Shri Hemanta Phukan", as: "শ্ৰী হেমন্ত ফুকন" },
-    designation: { en: "Senior Assistant & Registrar", as: "মুখ্য সহায়ক তথা কাৰ্যালয় পঞ্জীয়ক" },
+    id: "staff-ash-bahadur",
+    name: { en: "Shri Ash Bahadur Rai", as: "শ্ৰী আশ বাহাদুৰ ৰায়" },
+    designation: { en: "Grade-IV Staff", as: "চতুৰ্থ বৰ্গৰ কৰ্মচাৰী" },
     category: "administrative",
     department: { en: "Office Administration", as: "কাৰ্যালয় প্ৰশাসন" },
-    qualification: { en: "B.Com. (Accountancy)", as: "বি.কম (হিচাপ বিজ্ঞান)" },
-    experience: { en: "22 Years of Scholarship & Benefit coordination", as: "২২ বছৰৰ চৰকাৰী জলপানি আৰু ধন লেনদেন প্ৰশাসনিক" },
+    qualification: { en: "HSLC Passed", as: "হাইস্কুল শিক্ষান্ত উৰ্ত্তীণ" },
+    experience: { en: "10 Years of Campus Service", as: "১০ বছৰৰ কেম্পাছ সেৱা" },
     gender: "M"
   },
   {
-    id: "staff-10",
-    name: { en: "Shri Biren Sonowal", as: "শ্ৰী বীৰেণ সোণোৱাল" },
-    designation: { en: "Accounts Officer", as: "হিচাপ সংৰক্ষক" },
-    category: "administrative",
-    department: { en: "Finance & Welfare Accounts", as: "বিত্ত আৰু কল্যাণ শিতান" },
-    qualification: { en: "M.Com (Finance)", as: "এম.কম (বিত্ত শিতান)" },
-    experience: { en: "15 Years school board auditing assistance", as: "১৫ বছৰৰ চৰকাৰী পুঁজি আৰু হিচাপ সংৰক্ষণ" },
+    id: "staff-bikalpa",
+    name: { en: "Shri Bikalpa Gogoi", as: "শ্ৰী বিকল্প গগৈ" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষক" },
+    category: "teaching",
+    department: { en: "General Studies", as: "সাধাৰণ অধ্যয়ন" },
+    qualification: { en: "B.Sc., B.Ed.", as: "বি.এছচি, বি.এড" },
+    experience: { en: "12 Years of Classroom Pedagogy", as: "১২ বছৰৰ শিক্ষাদানৰ অভিজ্ঞতা" },
     gender: "M"
   },
   {
-    id: "staff-11",
-    name: { en: "Smt. Junu Baruah", as: "শ্ৰীমতী জুনু বৰুৱা" },
-    designation: { en: "Librarian & Cataloguer", as: "গ্ৰন্থাগাৰিক" },
-    category: "administrative",
-    department: { en: "School Library Vault", as: "গ্ৰন্থাগাৰ মহলা" },
-    qualification: { en: "B.Lib. (Library Science)", as: "বি.লিব (গ্ৰন্থাগাৰ বিজ্ঞান)" },
-    experience: { en: "11 Years of Digital index registry", as: "১১ বছৰৰ গ্ৰন্থাগাৰ ব্যৱস্থাপনা আৰু সূচী সমল" },
+    id: "staff-daradi",
+    name: { en: "Smt. Daradi Chutia", as: "শ্ৰীমতী দৰদী চুতীয়া" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষয়িত্ৰী" },
+    category: "teaching",
+    department: { en: "General Studies", as: "সাধাৰণ অধ্যয়ন" },
+    qualification: { en: "B.A., B.Ed.", as: "বি.এ, বি.এড" },
+    experience: { en: "8 Years of Teaching Experience", as: "৮ বছৰৰ শিক্ষাদানৰ অভিজ্ঞতা" },
     gender: "F"
+  },
+  {
+    id: "staff-doli",
+    name: { en: "Smt. Doli Boruah", as: "শ্ৰীমতী ডলী বৰুৱা" },
+    designation: { en: "Post Graduate Teacher (PGT) - History", as: "উচ্চতৰ মাধ্যমিক শিক্ষয়িত্ৰী (ইতিহাস)" },
+    category: "teaching",
+    department: { en: "Department of History", as: "ইতিহাস বিভাগ" },
+    qualification: { en: "M.A. (History), B.Ed.", as: "এম.এ (ইতিহাস), বি.এড" },
+    experience: { en: "14 Years of History Pedagogy", as: "১৪ বছৰৰ বুৰঞ্জী শিক্ষাদান" },
+    gender: "F"
+  },
+  {
+    id: "staff-grace",
+    name: { en: "Smt. Grace Ruhani Toon", as: "শ্ৰীমতী গ্ৰেচ ৰুহানী টুন" },
+    designation: { en: "Junior Assistant", as: "কনিষ্ঠ সহায়ক" },
+    category: "administrative",
+    department: { en: "Office Administration", as: "কাৰ্যালয় প্ৰশাসন" },
+    qualification: { en: "B.A. (Office Mgmt)", as: "বি.এ" },
+    experience: { en: "6 Years of Registry Maintenance", as: "৬ বছৰৰ কাৰ্যালয় নথি ব্যৱস্থাপনা" },
+    gender: "F"
+  },
+  {
+    id: "staff-hemonti",
+    name: { en: "Smt. Hemonti Das", as: "শ্ৰীমতী হেমন্তী দাস" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষয়িত্ৰী" },
+    category: "teaching",
+    department: { en: "Language Studies", as: "ভাষা অধ্যয়ন বিভাগ" },
+    qualification: { en: "B.A., B.Ed.", as: "বি.এ, বি.এড" },
+    experience: { en: "9 Years of Language Instruction", as: "৯ বছৰৰ ভাষা শিক্ষাদান" },
+    gender: "F"
+  },
+  {
+    id: "staff-himangshu",
+    name: { en: "Shri Himangshu Dewria", as: "শ্ৰী হিমাংশু দেউৰীয়া" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষক" },
+    category: "teaching",
+    department: { en: "General Studies", as: "সাধাৰণ অধ্যয়ন" },
+    qualification: { en: "B.Sc. (Physics), B.Ed.", as: "বি.এছচি, বি.এড" },
+    experience: { en: "11 Years of Science Education", as: "১১ বছৰৰ বিজ্ঞান শিক্ষাদান" },
+    gender: "M"
+  },
+  {
+    id: "staff-himoshree",
+    name: { en: "Smt. Himoshree Gogoi", as: "শ্ৰীমতী হিমাশ্ৰী গগৈ" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষয়িত্ৰী" },
+    category: "teaching",
+    department: { en: "Social Science", as: "সমাজ বিজ্ঞান" },
+    qualification: { en: "B.A., B.Ed.", as: "বি.এ, বি.এড" },
+    experience: { en: "7 Years of Pedagogy", as: "৭ বছৰৰ অভিজ্ঞতা" },
+    gender: "F"
+  },
+  {
+    id: "staff-jayanta",
+    name: { en: "Shri Jayanta Boruah", as: "শ্ৰী জয়ন্ত বৰুৱা" },
+    designation: { en: "Post Graduate Teacher (PGT) - Political Science", as: "উচ্চতৰ মাধ্যমিক শিক্ষক (ৰাজনীতি বিজ্ঞান)" },
+    category: "teaching",
+    department: { en: "Department of Political Science", as: "ৰাজনীতি বিজ্ঞান বিভাগ" },
+    qualification: { en: "M.A. (Pol Science), B.Ed.", as: "এম.এ, বি.এড" },
+    experience: { en: "15 Years of Board Examination Prep", as: "১৫ বছৰৰ ব’ৰ্ড পৰীক্ষা প্ৰস্তুতি" },
+    gender: "M"
+  },
+  {
+    id: "staff-jharna",
+    name: { en: "Smt. Jharna Borah", as: "শ্ৰীমতী ঝৰ্ণা বৰা" },
+    designation: { en: "Post Graduate Teacher (PGT) - Assamese", as: "উচ্চতৰ মাধ্যমিক শিক্ষয়িত্ৰী (অসমীয়া)" },
+    category: "teaching",
+    department: { en: "Department of Assamese", as: "অসমীয়া বিভাগ" },
+    qualification: { en: "M.A. (Assamese), B.Ed.", as: "এম.এ, বি.এড" },
+    experience: { en: "13 Years of Assamese Literature Pedagogy", as: "১৩ বছৰৰ অসমীয়া সাহিত্য শিক্ষাদান" },
+    gender: "F"
+  },
+  {
+    id: "staff-julfikar",
+    name: { en: "Shri Julfikar Rahman Zinnah", as: "শ্ৰী জুলফিক্কাৰ ৰহমান জিন্নাহ" },
+    designation: { en: "Post Graduate Teacher (PGT) - Education", as: "উচ্চতৰ মাধ্যমিক শিক্ষক (শিক্ষা বিজ্ঞান)" },
+    category: "teaching",
+    department: { en: "Department of Education", as: "শিক্ষা বিজ্ঞান বিভাগ" },
+    qualification: { en: "M.A. (Education), B.Ed.", as: "এম.এ, বি.এড" },
+    experience: { en: "16 Years of Pedagogy & Counseling", as: "১৬ বছৰৰ শিক্ষণ আৰু পৰামৰ্শ" },
+    gender: "M"
+  },
+  {
+    id: "staff-juri",
+    name: { en: "Smt. Juri Sahariah", as: "শ্ৰীমতী জুৰি সাহাৰীয়া" },
+    designation: { en: "Post Graduate Teacher (PGT) - Sociology", as: "উচ্চতৰ মাধ্যমিক শিক্ষয়িত্ৰী (সমাজতত্ত্ব)" },
+    category: "teaching",
+    department: { en: "Department of Sociology", as: "সমাজতত্ত্ব বিভাগ" },
+    qualification: { en: "M.A. (Sociology), B.Ed.", as: "এম.এ, বি.এড" },
+    experience: { en: "10 Years of Social Science Teaching", as: "১০ বছৰৰ সমাজ বিজ্ঞান পাঠদান" },
+    gender: "F"
+  },
+  {
+    id: "staff-mallika",
+    name: { en: "Smt. Mallika Bokolial", as: "শ্ৰীমতী মল্লিকা বকলীয়াল" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষয়িত্ৰী" },
+    category: "teaching",
+    department: { en: "General Studies", as: "সাধাৰণ অধ্যয়ন" },
+    qualification: { en: "B.A., B.Ed.", as: "বি.এ, বি.এড" },
+    experience: { en: "9 Years of Experience", as: "৯ বছৰৰ অভিজ্ঞতা" },
+    gender: "F"
+  },
+  {
+    id: "staff-nilakshi",
+    name: { en: "Smt. Nilakshi Gogoi", as: "শ্ৰীমতী নীলাক্ষী গগৈ" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষয়িত্ৰী" },
+    category: "teaching",
+    department: { en: "Science & Tech", as: "বিজ্ঞান আৰু প্ৰযুক্তি" },
+    qualification: { en: "B.Sc., B.Ed.", as: "বি.এছচি, বি.এড" },
+    experience: { en: "11 Years of Teaching", as: "১১ বছৰৰ অভিজ্ঞতা" },
+    gender: "F"
+  },
+  {
+    id: "staff-pallabi",
+    name: { en: "Smt. Pallabi Baruah", as: "শ্ৰীমতী পল্লৱী বৰুৱা" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষয়িত্ৰী" },
+    category: "teaching",
+    department: { en: "General Studies", as: "সাধাৰণ অধ্যয়ন" },
+    qualification: { en: "B.A., B.Ed.", as: "বি.এ, বি.এড" },
+    experience: { en: "8 Years of Teaching", as: "৮ বছৰৰ অভিজ্ঞতা" },
+    gender: "F"
+  },
+  {
+    id: "staff-pranjal",
+    name: { en: "Shri Pranjal Baruah", as: "শ্ৰী প্ৰাঞ্জল বৰুৱা" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষক" },
+    category: "teaching",
+    department: { en: "General Studies", as: "সাধাৰণ অধ্যয়ন" },
+    qualification: { en: "B.Sc., B.Ed.", as: "বি.এছচি, বি.এড" },
+    experience: { en: "12 Years of Mathematics Coaching", as: "১২ বছৰৰ গণিত শিক্ষাদান" },
+    gender: "M"
+  },
+  {
+    id: "staff-preeti",
+    name: { en: "Smt. Preeti Rekha Das", as: "শ্ৰীমতী প্ৰীতি ৰেখা দাস" },
+    designation: { en: "Post Graduate Teacher (PGT) - English", as: "উচ্চতৰ মাধ্যমিক শিক্ষয়িত্ৰী (ইংৰাজী)" },
+    category: "teaching",
+    department: { en: "Department of English", as: "ইংৰাজী বিভাগ" },
+    qualification: { en: "M.A. (English), B.Ed.", as: "এম.এ, বি.এড" },
+    experience: { en: "15 Years of Phonetics & Grammar Coaching", as: "১৫ বছৰৰ ধ্বনিবিজ্ঞান আৰু ব্যাকৰণ" },
+    gender: "F"
+  },
+  {
+    id: "staff-puja",
+    name: { en: "Smt. Puja Gogoi", as: "শ্ৰীমতী পূজা গগৈ" },
+    designation: { en: "Post Graduate Teacher (PGT) - Adv Assamese", as: "উচ্চতৰ মাধ্যমিক শিক্ষয়িত্ৰী (উচ্চতৰ অসমীয়া)" },
+    category: "teaching",
+    department: { en: "Department of Assamese", as: "অসমীয়া বিভাগ" },
+    qualification: { en: "M.A. (Assamese Literature), B.Ed.", as: "এম.এ, বি.এড" },
+    experience: { en: "7 Years of High Board Literary Training", as: "৭ বছৰৰ সাহিত্য প্ৰশিক্ষণ" },
+    gender: "F"
+  },
+  {
+    id: "staff-pulin",
+    name: { en: "Shri Pulin Chutia", as: "শ্ৰী পুলিন চুতীয়া" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষক" },
+    category: "teaching",
+    department: { en: "General Studies", as: "সাধাৰণ অধ্যয়ন" },
+    qualification: { en: "B.A., B.Ed.", as: "বি.এ, বি.এড" },
+    experience: { en: "14 Years of Secondary Guidance", as: "১৪ বছৰৰ নিৰীক্ষণ অভিজ্ঞতা" },
+    gender: "M"
+  },
+  {
+    id: "staff-rajashree",
+    name: { en: "Smt. Rajashree Dey", as: "শ্ৰীমতী ৰাজশ্ৰী দে" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষয়িত্ৰী" },
+    category: "teaching",
+    department: { en: "Social Sciences", as: "সমাজ বিজ্ঞান" },
+    qualification: { en: "B.A., B.Ed.", as: "বি.এ, বি.এড" },
+    experience: { en: "10 Years of Classroom Pedagogy", as: "১০ বছৰৰ অভিজ্ঞতা" },
+    gender: "F"
+  },
+  {
+    id: "staff-reetuporna",
+    name: { en: "Smt. Reetuporna Murari", as: "শ্ৰীমতী ঋতুপৰ্ণা মুৰাৰী" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষয়িত্ৰী" },
+    category: "teaching",
+    department: { en: "General Studies", as: "সাধাৰণ অধ্যয়ন" },
+    qualification: { en: "B.A., B.Ed.", as: "বি.এ, বি.এড" },
+    experience: { en: "8 Years of Teaching", as: "৮ বছৰৰ অভিজ্ঞতা" },
+    gender: "F"
+  },
+  {
+    id: "staff-rimpee",
+    name: { en: "Smt. Rimpee Bakalial", as: "শ্ৰীমতী ৰিম্পী বকলীয়াল" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষয়িত্ৰী" },
+    category: "teaching",
+    department: { en: "Science & Math", as: "বিজ্ঞান আৰু গণিত" },
+    qualification: { en: "B.Sc., B.Ed.", as: "বি.এছচি, বি.এড" },
+    experience: { en: "6 Years of Modern Sci-Lab Training", as: "৬ বছৰৰ লেব প্ৰশিক্ষণ" },
+    gender: "F"
+  },
+  {
+    id: "staff-rituraj",
+    name: { en: "Shri Rituraj Gogoi", as: "শ্ৰী ঋতুৰাজ গগৈ" },
+    designation: { en: "Grade-IV Staff", as: "চতুৰ্থ বৰ্গৰ কৰ্মচাৰী" },
+    category: "administrative",
+    department: { en: "Office Administration", as: "কাৰ্যালয় প্ৰশাসন" },
+    qualification: { en: "HS Passed", as: "উচ্চতৰ মাধ্যমিক উৰ্ত্তীণ" },
+    experience: { en: "5 Years of Technical Assistance", as: "৫ বছৰৰ কাৰ্যালয় সেৱা" },
+    gender: "M"
+  },
+  {
+    id: "staff-rumi",
+    name: { en: "Smt. Rumi Saikia", as: "শ্ৰীমতী ৰুমী শইকীয়া" },
+    designation: { en: "Post Graduate Teacher (PGT) - Economics", as: "উচ্চতৰ মাধ্যমিক শিক্ষয়িত্ৰী (অৰ্থনীতি)" },
+    category: "teaching",
+    department: { en: "Department of Economics", as: "অৰ্থনীতি বিভাগ" },
+    qualification: { en: "M.A. (Economics), B.Ed.", as: "এম.এ, বি.এড" },
+    experience: { en: "16 Years of Economic Board Prep", as: "১৬ বছৰৰ অৰ্থনীতি পাঠদান" },
+    gender: "F"
+  },
+  {
+    id: "staff-saurabh",
+    name: { en: "Shri Saurabh Boruah", as: "শ্ৰী সৌৰভ বৰুৱা" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষক" },
+    category: "teaching",
+    department: { en: "Language & Literature", as: "ভাষা আৰু সাহিত্য" },
+    qualification: { en: "B.A., B.Ed.", as: "বি.এ, বি.এড" },
+    experience: { en: "9 Years of Linguistic Guidance", as: "৯ বছৰৰ ভাষিক অভিজ্ঞতা" },
+    gender: "M"
+  },
+  {
+    id: "staff-sultana",
+    name: { en: "Smt. Sultana Mahmuda", as: "শ্ৰীমতী চুলতানা মাহমুদা" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষয়িত্ৰী" },
+    category: "teaching",
+    department: { en: "General Studies", as: "সাধাৰণ অধ্যয়ন" },
+    qualification: { en: "B.A., B.Ed.", as: "বি.এ, বি.এড" },
+    experience: { en: "10 Years of Pedagogy", as: "১০ বছৰৰ অভিজ্ঞতা" },
+    gender: "F"
+  },
+  {
+    id: "staff-tapan",
+    name: { en: "Shri Tapan Jyoti Dihingia", as: "শ্ৰী তপন জ্যোতি দিহিঙীয়া" },
+    designation: { en: "Graduate Teacher", as: "স্নাতক শিক্ষক" },
+    category: "teaching",
+    department: { en: "Department of Mathematics", as: "গণিত বিভাগ" },
+    qualification: { en: "B.Sc. (Mathematics), B.Ed.", as: "বি.এছচি, বি.এড" },
+    experience: { en: "11 Years of Quantitative Guidance", as: "১১ বছৰৰ গণিত অভিজ্ঞতা" },
+    gender: "M"
   }
 ];
 
@@ -237,13 +407,13 @@ export const SMDC_MEMBERS: SMDCRepresentative[] = [
   },
   {
     role: { en: "Teacher Representatives", as: "শিক্ষক প্ৰতিনিধি" },
-    name: { en: "Smt. Anuradha Chutia", as: "শ্ৰীমতী অনুৰাধা চুতীয়া" },
-    designation: { en: "Vice Principal & Senior Faculty of Assamese", as: "উপাধ্যক্ষ তথা জ্যেষ্ঠ অসমীয়া শিক্ষক" }
+    name: { en: "Smt. Preeti Rekha Das", as: "শ্ৰীমতী প্ৰীতি ৰেখা দাস" },
+    designation: { en: "PGT English & Senior Faculty Member", as: "জ্যেষ্ঠ ইংৰাজী শিক্ষক" }
   },
   {
     role: { en: "Teacher Representatives", as: "শিক্ষক প্ৰতিনিধি" },
-    name: { en: "Shri Debajit Saikia", as: "শ্ৰী দেৱজিৎ শইকীয়া" },
-    designation: { en: "Senior PGT Physics Instructor", as: "জ্যেষ্ঠ পদাৰ্থ বিজ্ঞান শিক্ষক" }
+    name: { en: "Shri Jayanta Boruah", as: "শ্ৰী জয়ন্ত বৰুৱা" },
+    designation: { en: "PGT Political Science & Senior Faculty Member", as: "জ্যেষ্ঠ ৰাজনীতি বিজ্ঞান শিক্ষক" }
   },
   {
     role: { en: "Parent Representatives", as: "অভিভাৱক প্ৰতিনিধি" },
