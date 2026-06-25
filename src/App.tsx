@@ -101,12 +101,6 @@ export default function App() {
               <div className="w-full lg:flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   {
-                    name: "Smt. Swapnali Baruah",
-                    role: lang === "en" ? "PGT English & ALT-English Counselor" : "জ্যেষ্ঠ ইংৰাজী প্ৰবক্তা",
-                    stat: "100% Pass",
-                    milestone: lang === "en" ? "26+ Distinction Scorers in 2024" : "২৬+তকৈ অধিক ডিষ্টিংকচন"
-                  },
-                  {
                     name: "Shri Jayanta Boruah",
                     role: lang === "en" ? "PGT Political Science Senior Advisor" : "জ্যেষ্ঠ ৰাজনীতি বিজ্ঞান প্ৰবক্তা",
                     stat: "98% PolSci Pass",
@@ -117,12 +111,6 @@ export default function App() {
                     role: lang === "en" ? "PGT English Senior Faculty Chair" : "জ্যেষ্ঠ ইংৰাজী সাহিত্য প্ৰবক্তা",
                     stat: "100% Success",
                     milestone: lang === "en" ? "Special Phonetics & Grammar coaching" : "বিশেষ ধ্বনিবিজ্ঞান আৰু ইংৰাজী ব্যাকৰণ প্ৰশিক্ষণ"
-                  },
-                  {
-                    name: "Shri Dilip Kumar Gogoi",
-                    role: lang === "en" ? "Senior Chemistry Board Examiner" : "জ্যেষ্ঠ ৰসায়ন বিজ্ঞান নিৰীক্ষক",
-                    stat: "96.5% Chem Pass",
-                    milestone: lang === "en" ? "Practical Exams Coordinator" : "ব্যৱহাৰিক পৰীক্ষাৰ মুখ্য সমন্বয়ক"
                   }
                 ].map((item, index) => (
                   <div key={index} className="bg-slate-50 dark:bg-[#071911]/40 border border-slate-150 dark:border-emerald-950/45 p-4 rounded-2xl flex flex-col justify-between hover:border-brand-green/25 dark:hover:border-brand-gold/30 hover:bg-white dark:hover:bg-[#0a2318] transition-all duration-350">

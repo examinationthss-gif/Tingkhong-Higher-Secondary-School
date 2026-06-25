@@ -462,7 +462,7 @@ export default function THSSAlumniNetwork({ lang }: THSSAlumniNetworkProps) {
       location: "THSS Central Lawn & Auditorium",
       type: "Reunion Event",
       color: "border-l-brand-gold bg-amber-50/50 dark:bg-amber-950/10",
-      desc: { en: "A nostalgic assembly of legacy batches from 1972 to 2026. Includes cultural felicitation, Bihu choreographies, and an official Diamond souvenir release.", as: "১৯৭২ ৰ পৰা ২০২৬ লৈ সকলো পুৰণি বেচৰ একক মিলন সমাৰোহ। জ্যেষ্ঠ সতীৰ্থ সন্মিলন।" }
+      desc: { en: "A nostalgic assembly of legacy batches from 1946 to 2026. Includes cultural felicitation, Bihu choreographies, and an official Diamond souvenir release.", as: "১৯৪৬ ৰ পৰা ২০২৬ লৈ সকলো পুৰণি বেচৰ একক মিলন সমাৰোহ। জ্যেষ্ঠ সতীৰ্থ সন্মিলন।" }
     },
     {
       id: "ev-2",
@@ -1973,7 +1973,7 @@ export default function THSSAlumniNetwork({ lang }: THSSAlumniNetworkProps) {
               { year: "2015", title: "National Science Congress entries", category: "Academic Achievements", label: "THSS students registered perfect 100/100 science board scores, rewarded directly by Dibrugarh district magistrates." },
               { year: "2002", title: "First District ACS Civil entry", category: "Notable Alumni Placement", label: "Smt. Manashi Borgohain successfully cleared the civil services exams, establishing first official cadre representation at Dispur." },
               { year: "1994", title: "AMC Cardiology Gold Medallist", category: "Notable Alumni Placement", label: "Dr. Bhaskar Jyoti Gogoi secured top board placement in cardiac surgical credentials, leading to GMCH surgeon seats." },
-              { year: "1972", title: "Alumni Association foundation", category: "Notable Alumni Placement", label: "First batch of matriculates convened the secondary committee, raising initial funds for library building planks." }
+              { year: "1946", title: "Alumni Association foundation", category: "Notable Alumni Placement", label: "First batch of matriculates convened the secondary committee, raising initial funds for library building planks." }
             ].map((node, i) => (
               <div key={i} className="relative group text-left">
                 {/* Visual orange dot */}

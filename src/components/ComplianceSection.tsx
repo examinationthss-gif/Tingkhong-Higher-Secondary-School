@@ -132,7 +132,7 @@ export default function ComplianceSection({ lang }: ComplianceSectionProps) {
                         TINGKHONG HIGHER SECONDARY SCHOOL
                       </h4>
                       <p className="text-[10px] sm:text-xs text-white/80 font-mono mt-0.5">
-                        UDISE Code: 18210313101 • Estd. 1972
+                        UDISE Code: 18210313101 • Estd. 1946
                       </p>
                     </div>
                     {/* Official Stamp Mockup */}

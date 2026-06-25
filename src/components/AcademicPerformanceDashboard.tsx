@@ -45,9 +45,9 @@ export default function AcademicPerformanceDashboard({ lang }: AcademicPerforman
       totalAppeared: 157,
       divisions: { or: '79.62% HSLC / 84.01% HS', first: 68, second: 45, third: 17, distinctions: 11, starMarks: 24 },
       starPerformers: [
-        { name: 'Kushal Gogoi', stream: 'Science (HS)', score: '96.2%', achievements: 'Ranked top in Dibrugarh subdivision', starSubjects: ['Physics', 'Chemistry', 'Mathematics'] },
+        { name: 'Kushal Gogoi', stream: 'Vocational (HS)', score: '96.2%', achievements: 'Ranked top in Dibrugarh subdivision', starSubjects: ['IT/ITeS', 'Retail Sales', 'Computer Science'] },
         { name: 'Ananya Phukan', stream: 'Arts (HS)', score: '94.8%', achievements: 'District high-scorer in Alt-English', starSubjects: ['English', 'Alternative English', 'Political Science'] },
-        { name: 'Hrishikesh Baruah', stream: 'Class X (HSLC)', score: '93.6%', achievements: 'SEBA Star Marks', starSubjects: ['General Science', 'Advanced Mathematics'] }
+        { name: 'Hrishikesh Baruah', stream: 'Class X (HSLC)', score: '93.6%', achievements: 'SEBA Star Marks', starSubjects: ['Advanced Mathematics', 'Social Science'] }
       ]
     },
     '2025': {
@@ -56,9 +56,9 @@ export default function AcademicPerformanceDashboard({ lang }: AcademicPerforman
       totalAppeared: 164,
       divisions: { or: '90.24% HSLC / 92.1% HS', first: 84, second: 51, third: 15, distinctions: 18, starMarks: 32 },
       starPerformers: [
-        { name: 'Priyanka Phukan', stream: 'Science (HS)', score: '97.4%', achievements: 'District Rank 3 • Star Marks in 5 subjects', starSubjects: ['English', 'Physics', 'Mathematics', 'Biology', 'Chemistry'] },
+        { name: 'Priyanka Phukan', stream: 'Vocational (HS)', score: '97.4%', achievements: 'District Rank 3 • Star Marks in 5 subjects', starSubjects: ['English', 'IT/ITeS', 'Retail Sales', 'Computer Science'] },
         { name: 'Abhinav Gogoi', stream: 'Arts (HS)', score: '96.2%', achievements: 'Assamese literature school topper', starSubjects: ['MIL Assamese', 'Political Science', 'Sociology'] },
-        { name: 'Rupjyoti Sonowal', stream: 'Class X (HSLC)', score: '95.8%', achievements: 'SEBA Star Marks', starSubjects: ['General Science', 'General Mathematics'] }
+        { name: 'Rupjyoti Sonowal', stream: 'Class X (HSLC)', score: '95.8%', achievements: 'SEBA Star Marks', starSubjects: ['Advanced Mathematics', 'General Mathematics'] }
       ]
     },
     '2024': {
@@ -67,7 +67,7 @@ export default function AcademicPerformanceDashboard({ lang }: AcademicPerforman
       totalAppeared: 172,
       divisions: { or: '90.47% HSLC / 100% HS of excellence', first: 95, second: 58, third: 12, distinctions: 26, starMarks: 41 },
       starPerformers: [
-        { name: 'Parash Jyoti Baruah', stream: 'Science (HS)', score: '96.8%', achievements: 'Selected in National Science Meet', starSubjects: ['Physics', 'Mathematics', 'Computer Science'] },
+        { name: 'Parash Jyoti Baruah', stream: 'Vocational (HS)', score: '96.8%', achievements: 'Selected in National Skill Exhibition', starSubjects: ['IT/ITeS', 'Computer Science', 'General Foundation'] },
         { name: 'Nilakshi Chetia', stream: 'Arts (HS)', score: '95.4%', achievements: 'State Board Assamese Excellence', starSubjects: ['MIL Assamese', 'English', 'History'] },
         { name: 'Subham Dey', stream: 'Class X (HSLC)', score: '94.6%', achievements: 'Perfect 100/100 General Mathematics', starSubjects: ['General Mathematics', 'Social Science'] }
       ]
@@ -78,7 +78,7 @@ export default function AcademicPerformanceDashboard({ lang }: AcademicPerforman
       totalAppeared: 148,
       divisions: { or: 'Historic 100% All Pass benchmark', first: 110, second: 32, third: 6, distinctions: 15, starMarks: 38 },
       starPerformers: [
-        { name: 'Simran Chutia', stream: 'Science (HS)', score: '95.6%', achievements: 'Perfect score standard in English block', starSubjects: ['English', 'Physics', 'Chemistry'] },
+        { name: 'Simran Chutia', stream: 'Arts (HS)', score: '95.6%', achievements: 'Perfect score standard in English block', starSubjects: ['English', 'Political Science', 'Economics'] },
         { name: 'Debajit Sonowal', stream: 'Arts (HS)', score: '94.2%', achievements: 'Regional administration merit reward', starSubjects: ['Political Science', 'Logic & Philosophy'] },
         { name: 'Barnali Gogoi', stream: 'Class X (HSLC)', score: '93.8%', achievements: '100% Board Certified evaluation', starSubjects: ['Social Science', 'MIL Assamese'] }
       ]
@@ -87,14 +87,6 @@ export default function AcademicPerformanceDashboard({ lang }: AcademicPerforman
 
   // Faculty Achievements Based on Examination Results
   const facultyAchievements = [
-    {
-      teacher: "Smt. Swapnali Baruah",
-      role: "PGT English & ALT-English Counselor",
-      stat: "100% Pass Rate",
-      milestone: "26+ Distinction Scorers in 2024 HS Evaluation",
-      desc: "Delivered standard classroom phonetics and remedial writing modules leading, resulting in consecutive high-division grades across all groups.",
-      icon: "English"
-    },
     {
       teacher: "Shri Jayanta Boruah",
       role: "PGT Political Science Senior Advisor",
@@ -110,14 +102,6 @@ export default function AcademicPerformanceDashboard({ lang }: AcademicPerforman
       milestone: "Special Phonetics & Grammar coaching",
       desc: "Advanced reading comprehension methods and creative writing strategies that consistently unlock board star-marks.",
       icon: "English"
-    },
-    {
-      teacher: "Shri Dilip Kumar Gogoi",
-      role: "Senior Chemistry Practical Board Examiner",
-      stat: "96.5% Chemistry Pass Rate",
-      milestone: "Over 180 pupils secured Distinction in Practical",
-      desc: "Maintains a record of zero fatal laboratory slips and consistently guides rural science candidates to board evaluation standards.",
-      icon: "Chemistry"
     }
   ];  // Selected drill down info helper
   const selectedDrillInfo = statsByYear[drillYear];
@@ -221,7 +205,7 @@ export default function AcademicPerformanceDashboard({ lang }: AcademicPerforman
               </h3>
               
               <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mt-3">
-                Our Higher Secondary (Science and Arts streams) performance is evaluated under AHSEC board strict measures, showing a robust standard of student engagement.
+                Our Higher Secondary (Arts and Vocational streams) performance is evaluated under AHSEC board strict measures, showing a robust standard of student engagement.
               </p>
 
               {/* Stats benchmarks columns */}
@@ -646,11 +630,12 @@ export default function AcademicPerformanceDashboard({ lang }: AcademicPerforman
 
           <div className="relative border-l-2 border-brand-green/35 dark:border-emerald-800/40 md:ml-10 space-y-8 pl-6 md:pl-10">
             {[
-              { year: '2026', title: 'Scholastic Stabilization', icon: 'Timeline', color: 'bg-brand-green', label: '84% Classes XII pass achieved strictly under paper scanning standards.' },
-              { year: '2024', title: '100% Higher Secondary Pass Year', icon: '100Percent', color: 'bg-brand-gold', label: 'Achieved complete 100% pass rate in HS Science and Arts stream under AHSEC registries.' },
-              { year: '2022', title: 'District Smart-Class Integration', icon: 'Smart', color: 'bg-brand-green', label: 'Completed installation of full projection screens and science lab calibration benchmarks.' },
-              { year: '2021', title: '100% HSLC Pass Year (Historic Milestone)', icon: '100Percent', color: 'bg-brand-gold', label: 'SEBA standard achieved 100% pass outcome, rewarding educational resilience.' },
-              { year: '1972', title: 'Foundational Establishment', icon: 'ESTD', color: 'bg-slate-700 dark:bg-slate-600', label: 'Tingkhong Higher Secondary School first established, raising rural standards in Dibrugarh.' }
+              { year: '2026', title: 'Scholastic Stabilization', icon: 'Timeline', color: 'bg-brand-green', label: 'Achieved a robust 84% Class XII pass outcome under rigorous state examination evaluations.' },
+              { year: '2024', title: '100% Higher Secondary Pass Year', icon: '100Percent', color: 'bg-brand-gold', label: 'Secured a 100% success rate across both the HS Arts and Vocational streams under official AHSEC registries.' },
+              { year: '2021', title: '100% HSLC Pass Year', icon: '100Percent', color: 'bg-brand-gold', label: 'Achieved a milestone 100% pass outcome in the HSLC examination under SEBA.' },
+              { year: '1985', title: 'Higher Secondary Upgrade', icon: 'Upgrade', color: 'bg-brand-green', label: 'Formally upgraded to a Higher Secondary school, introducing dedicated Arts and Vocational streams.' },
+              { year: '1977', title: 'Secondary School Upgrade', icon: 'SEBA', color: 'bg-brand-green', label: 'Upgraded from Upper Primary to a full Secondary School structure under SEBA standards.' },
+              { year: '1946', title: 'Foundational Establishment', icon: 'ESTD', color: 'bg-slate-700 dark:bg-slate-600', label: 'Founded as a formal school under the Department of Education, pioneering high-quality secondary education in rural Dibrugarh.' }
             ].map((milestone, idx) => (
               <div key={idx} className="relative group text-left">
                 {/* Dot indicator */}

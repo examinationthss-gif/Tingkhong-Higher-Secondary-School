@@ -34,13 +34,13 @@ export default function Footer({ onScrollToSection }: FooterProps) {
                 </div>
               </div>
               <p className="text-xs text-slate-400 mt-5 leading-relaxed max-w-sm">
-                Empowering the future pioneers of Dibrugarh, Assam through moral development, digital inclusion, and outstanding state curriculum achievements since 1972.
+                Empowering the future pioneers of Dibrugarh, Assam through moral development, digital inclusion, and outstanding state curriculum achievements since 1946.
               </p>
             </div>
 
             {/* School statistics / legal certification indicators */}
             <div className="mt-8 pt-6 border-t border-slate-800 flex gap-4 text-[10px] text-slate-500 uppercase tracking-wider">
-              <span>ESTD. 1972</span>
+              <span>ESTD. 1946</span>
               <span>•</span>
               <span>UDISE: 18150410401</span>
               <span>•</span>

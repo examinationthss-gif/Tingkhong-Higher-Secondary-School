@@ -3,7 +3,7 @@ import { Notice, StatItem, StreamDetail, TrustIndicator, Testimonial, HighlightI
 export const SCHOOL_NAME = "Tingkhong Higher Secondary School";
 export const SCHOOL_LOCATION = "Tingkhong, Dibrugarh, Assam";
 export const SCHOOL_AFFILIATION = "Affiliated with AHSEC & SEBA, Govt. of Assam";
-export const SCHOOL_ESTD = "Established 1972";
+export const SCHOOL_ESTD = "Established 1946";
 
 export const PRINCIPAL_INFO = {
   name: "Ashok Gogoi",
@@ -90,9 +90,9 @@ export const SCHOOL_STATS: StatItem[] = [
   {
     id: "stat-4",
     label: "Legacy of Excellence",
-    value: "54 Years",
+    value: "80 Years",
     iconName: "History",
-    description: "Cultivating moral leaders and scholars since 1972"
+    description: "Cultivating moral leaders and scholars since 1946"
   }
 ];
 
